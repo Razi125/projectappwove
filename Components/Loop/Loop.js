@@ -2,35 +2,36 @@ import React from 'react'
 
 const Loop = () => {
     return (
-        <div className='mx-auto container  bg-cover bg-center h-[439px]  bg-bgunsplash bg-no-repeat rounded-[16px] mt-8 mb-10 md:mb-20'>
-            <div className='flex justify-center items-center md:justify-between md:items-center'>
-                <div className='flex flex-col mt-16 md:mt-28 md:ml-14 lg:mt-28 lg:ml-28'>
-                    <div>
-                        <p className='text-[#FFFFFF] max-w-[190px] md:max-w-[237px] xl:max-w-[284px]  text-2xl md:text-3xl xl:text-4xl font-semibold montserrat-medium  leading-9 -tracking-[0.01] py-4 ml-14 lg:ml-0 md:ml-0 '>Stay in the loop</p>
-                    </div>
+        <div className='mx-auto container px-4 mb-[34px] mt-[59.89px] md:mt-[96px] '>
+            <div className='bg-cover bg-center h-[271px] md:h-[300px] lg:h-[330px] xl:h-[439px] bg-bgunsplash bg-no-repeat md:rounded-[14.1656px] lg:rounded-[16px]  rounded-[7.50652px]  md:mb-20'>
+                <div className='flex justify-center items-center  md:justify-between '>
+                    <div className='flex flex-col justify-center md:items-start items-center'>
+                        <div>
+                            <h1 className='text-[#FFFFFF] max-w-[190px] md:max-w-[293px] xl:max-w-[402px] text-2xl md:text-3xl xl:text-4xl font-semibold montserrat-medium  leading-6 md:leading-[30px] xl:leading-9 not-italic -tracking-[0.01em] xl:pt-[135px] lg:pt-[82px] md:pt-[68px] xl:pl-[128px] md:pb-4 md:pl-16 pt-10 pb-4 '>Stay in the loop</h1>
+                        </div>
+                        <div>
+                            <p className='text-[#A3A3A3] md:text-[#D4D4D4] max-w-[251px] md:max-w-[363px] lg:max-w-[359px] xl:max-w-[624px] text-sm md:text-base font-normal avenir not-italic leading-[14px] md:leading-[22px] md:pl-16 xl:pl-[128px] mb-9 '>Sign up to be the first to try Wove.</p>
+                        </div>
 
-                    <div>
-                        <p className='text-[#D4D4D4] max-w-[251px] md:max-w-[363px] lg:max-w-[359px]  xl:max-w-[624px] text-sm md:text-base font-normal avenir  leading-4 mb-10 ml-12 lg:ml-0 md:ml-0'>Sign up to be the first to try Wove.</p>
-                    </div>
-                    <div>
-                        <div className='mx-auto container flex flex-col md:flex-row md:bg-[#262626] md:max-w-[367px] lg:max-w-[504px]  xl:max-w-[547px] h-[60px] md:border-solid md:border-2 md:border-[#404040] md:box-border md:rounded-[56px] '>
-                            <input
-                                type='text' 
-                                className='avenir text-base font-normal -tracking-[0.02] text-[#D4D4D4] rounded-[10px] py-2 w-[289px]  
-                                md:mb-0 lg:mb-4 bg-[#262626] md:bg-[#262626] border-solid border-2 border-[#404040] md:border-none box-border md:rounded-[5px]   md:ml-4 md:px-5 md:py-3.2  md:w-full lg:ml-[0.9rem] lg:mt-[0.9rem]'
-                                placeholder='Email Address'
-                            />
-                            <button className='bg-[#0585F2] w-[279px] md:w-[367px]  lg:w-[381px] text-[#FFFFFF] rounded-[56px] montserrat-medium my-0.3 mx-0.3 font-medium text-[0.6rem] lg:text-base  py-2 px-4 my-1 mx-1'>Request Early Access</button>
+                        <div className='mx-auto container xl:pl-[128px] md:pl-16'>
+                            <div className='flex flex-col md:flex-row md:items-start md:bg-[#262626] md:w-[400px] lg:w-[400px] xl:w-[600px] md:border-solid md:border-2 md:border-[#404040] md:box-border md:rounded-[56px] '>
+                                <input
+                                    type='text'
+                                    className='avenir text-sm xl:text-base font-normal -tracking-[0.02] text-[#D4D4D4] not-italic leading-[14px] md:leading-[21px] xl:leading-6  rounded-[6px] w-[279px]  
+                                   xl:mb-4 bg-[#262626] border-solid border border-[#404040] md:border-none box-border md:rounded-[56px] xl:pl-7 xl:pt-6  mx-w-[87px] md:pt-[1.5rem] md:pl-[18px] md:ml-1 md:py-1 py-4 pl-4 mb-[9px]'
+                                    placeholder='Email Address'
+                                />
+                                <button className='bg-[#0585F2] w-[279px] md:mx-w-[152px] xl:w-[212px] text-[#FFFFFF] rounded-[56px] avenir font-normal not-italic xl:leading-6 md:leading-[21px] leading-[14px] -tracking-[0.02] text-sm xl:text-base py-4 md:my-[6px] md:mx-[6px] xl:ml-[6.5rem] xl:mt-[0.6rem] xl:py-4 hover:bg-sky-700 '>Request Early Access</button>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div className=' hidden md:block w-[168.4px] mb-5 md:w-[210.18px] lg:w-[193.25px] xl:w-[357.92px]  h-[109.8px] lg:mt-8 ' >
-                    <img className=' lg:h-[12rem] sm:-ml-[1rem] md:-ml-[2rem] lg:-ml-[4rem]' src='./images/wove-logomark-rgb.svg' alt='' />
-                </div>
+                    <div className=' hidden md:block md:mr-[58.40px] md:mt-[70.33px]  xl:mt-[124.33px] xl:mr-[101.4px] ' >
+                        <img className=' md:h-[97.22px] md:w-[168.4px] lg:w-[321.25px] lg:h-[150px] xl:h-[219.04px] ' src='./images/wove-logomark-rgb.svg' alt='' />
+                    </div>
 
+                </div>
             </div>
-
         </div>
     )
 }

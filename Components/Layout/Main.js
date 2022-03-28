@@ -13,22 +13,14 @@ const Main = () => {
   return (
     < >
       <Header />
-      <br />
       {/** Childe Component start */}
       <MainContent />
-      <br />
       <Tabs />
-      <br />
        <WorkFlow />
-      <br />
       <BeforeWove />
-       <br />
-        <AfterWove />
-      <br />
-       <SourceTruth />
-      <br />
+      <AfterWove />
+      <SourceTruth />
       <Loop />
-      <br />
       <Footer />
     </>
   )
